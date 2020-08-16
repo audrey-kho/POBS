@@ -19,10 +19,10 @@
   function pageLoad(res) {
     console.log(res);
     let object = res.db['2f7348b1-bfbb-43c0-9186-fdc31141a8ae'];
-    console.log(object.hologram.filename);
-    let mv = document.createElement("model-viewer");
-    mv.src = object.hologram.filename;
-    document.querySelector(section).appendChild(mv);
+    let link = document.createElement("a");
+    link.href = object.additionalData.shortURL;
+    link.textContent = "Reach for weapon";
+    document.querySelector("body").appendChild(link);
   }
 
   /**
