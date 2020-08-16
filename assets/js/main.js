@@ -23,7 +23,7 @@
   function pageLoad(res) {
     document.querySelector(".container").classList.add("hidden");
     console.log(res);
-    let object = res.db['2f7348b1-bfbb-43c0-9186-fdc31141a8ae'];
+    let object = res.db['e44aa0bf-32f4-45b7-99d0-e68b7baade1e'];
     let link = document.createElement("a");
     link.href = object.additionalData.shortURL;
     link.textContent = "Reach for weapon";
