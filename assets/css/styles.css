@@ -1,0 +1,72 @@
+
+/* Button */
+body {
+    background: #58b7c1;
+    overflow: hidden;
+    color: #2c3e50;
+    background-image: url("images/police.jpg") no-repeat;
+    font-size: 14px;
+  }
+
+  .container {
+    position: fixed;
+    margin-top: -330px;
+    margin-left: 40%;
+    top: 50%;
+    width: 375px;
+    height: 667px;
+
+    box-shadow: 0 10px 45px rgba(0, 0, 0, 20);
+  }
+
+  h1 {
+    margin: 35px 0 auto 70px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 100px;
+    font-size: 80px;
+    color: #2c3e50;
+    text-align: center;
+    line-height: 120px;
+    width: 200px;
+  }
+
+  input {
+    position: relative;
+    margin:auto;
+    margin-bottom: 8px;
+    width: 80%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-size: border-box;
+    font-size: 14px;
+    text-align: center;
+    font-family: Helvetica neue;
+  }
+
+  .button {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 40px;
+    line-height: 30px;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .forgot {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 14px;
+    text-align: center;
+    font-family: Helvetica neue;
+  }
