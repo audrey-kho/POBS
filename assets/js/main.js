@@ -6,6 +6,10 @@
    * Fetches all entries associated with API key once the webpage is loaded
    */
   function init() {
+    document.querySelector("button").addEventListener("click", fetchCall);
+  }
+
+  function fetchCall() {
     fetch("https://console.echoAR.xyz/query?key=still-lab-7762")
       .then(checkStatus)
       .then(resp => resp.json())
@@ -17,12 +21,13 @@
    * Prints API response to console
    */
   function pageLoad(res) {
+    document.querySelector(".container").classList.add("hidden");
     console.log(res);
     let object = res.db['2f7348b1-bfbb-43c0-9186-fdc31141a8ae'];
     let link = document.createElement("a");
     link.href = object.additionalData.shortURL;
     link.textContent = "Reach for weapon";
-    document.querySelector("body").appendChild(link);
+    document.getElementById("sim").appendChild(link);
   }
 
   /**
