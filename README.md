@@ -1,1 +1,2 @@
 # POBS
+Welcome to POBS, an augmented reality Police Officer Bias Simulation. By using interactive immersive AR, POBS forces officers to make split second decisions based on their own morality and initial instincts on a wide array of scenarios.
